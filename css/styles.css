@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); 
+
+
+body{
+    background-color:#e0ecc5;
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+    color:#0a2720;
+    text-align: justify;
+}
+
+
+
+.container{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "logo title title cart location hamburgermenu"
+        "search search search search search search"
+        "slideshow-container slideshow-container slideshow-container slideshow-container slideshow-container slideshow-container"
+        " reviews reviews reviews reviews reviews reviews"
+        "footer reviews reviews reviews reviews reviews"
+        
+}
+
+.header{
+    grid-area: title;
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.logo{
+    grid-area:logo;
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+
+.span1{
+   grid-area: title;
+    top: 18px; 
+    left: 10px; 
+    width: 60%;
+ margin: 25px;
+    text-align: center;
+    font-size: 80px;
+    
+}
+
+.cart{
+    grid-area: cart;
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.location{
+    grid-area: location;
+    width: 27px;
+    height: 39px;
+    margin-left: 10px;
+    float: right;
+}
+
+.hamburgermenu{
+    grid-area: hamburgermenu;
+    float: right;
+    width: 34px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.
