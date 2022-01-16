@@ -107,7 +107,7 @@ body{
     width: 75%;
     border-radius: 30px;
     text-align: center;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     margin-top: 25px;
     background-color: #f1ce6e;
     margin-bottom: 25px;
@@ -470,7 +470,7 @@ footer{
   #searchbar
   {
     width: 20%;
-    margin-right: 15%;
+    /* margin-right: 15%; */
     background-color: #ffffff;
   }
   #desktopMenu
